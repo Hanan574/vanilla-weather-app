@@ -1,0 +1,38 @@
+.whole {
+  max-width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f2ded7;
+  color: #192841;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+img {
+  margin-left: 170px;
+}
+.temperature {
+  text-align: center;
+}
+.skyType {
+  text-align: center;
+  padding: 15px;
+}
+ul {
+  list-style: none;
+}
+.humidity {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
