@@ -34,9 +34,16 @@ function weather(response) {
   document.querySelector(
     ".wind"
   ).innerHTML = `Wind : ${response.data.wind.speed} km/hr`;
+  document
+    .querySelector("#icon")
+    .setAttribute(
+      "src",
+      `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
 }
 
 let apiKey = "2e4de2b11b8a6f23faaa2d921b3e9a8f";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Medina&appid=${apiKey}&units=metric`;
+let city = "sydney";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(weather);
