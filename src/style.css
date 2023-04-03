@@ -33,6 +33,9 @@ ul {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+#icon {
+  margin-left: 160px;
+}
 footer {
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -40,4 +43,11 @@ footer {
 a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+}
+img {
+  text-align: left;
+  margin-left: 0px;
+  width: 40px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
